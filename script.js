@@ -258,7 +258,7 @@ var tl4 = gsap.timeline({
   
   downloadButtons.forEach(function(button) {
     button.addEventListener("click", function() {
-        var cvLink = "https://drive.google.com/file/d/17H4AY21D7ZDonuscbT5mbuQ1_2Fdj0rt/view?usp=drive_link";
+        var cvLink = "https://drive.usercontent.google.com/u/0/uc?id=17H4AY21D7ZDonuscbT5mbuQ1_2Fdj0rt&export=download";
         var downloadLink = document.createElement("a");
         downloadLink.href = cvLink;
         downloadLink.target = "_blank"; 
